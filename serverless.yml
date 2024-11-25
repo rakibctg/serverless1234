@@ -16,7 +16,7 @@ functions:
           method: any
           path: /{proxy+}
     environment:
-      #DATABASE: ''
-      #USERNAME: ''
+      #DATABASE: 'm2000_wordpressn'
+      #USERNAME: 'm2000_wordpressn'
       #PASSWORD: Don't set this if you'll be commiting the file, instead use the AWS console or another method like Parameter Store
-      #HOST: ''
+      #HOST: 'mysql0.serv00.com'
